@@ -18,7 +18,7 @@ div.carouselSlide {
 
 div.testimonial {
     flex: 1;
-    border: 1px solid black;
+    border: 10px double #a3bfed;
     border-radius: 20px;
     display: block;
     margin-right: 20px;
