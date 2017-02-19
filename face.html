@@ -5,43 +5,57 @@
     <meta charset="utf-8">
     <title>Perfect face</title>
     <link rel="stylesheet" href="forms.css">
+    <script src="jquery-3.1.1.min.js"></script>
+  <script src="forms.js"> </script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
 </head>
 
 <body>
+
+<hgroup>
     <header>
-        <h1>MatchMake</h1>
+
+        <img src="MMlogo1.png" alt="">
     </header>
+  </hgroup>
     <p>
-        <h2>Complexion</h2>
-        <div>
-            <input type="image" src="pale.jpg" class="img" style="width:160px">
-            <input type="image" src="lightest.jpg" class="img" style="width:190px">
-            <input type="image" src="medium-light.jpg" class="img" style="width:170px">
-            <input type="image" src="medium.jpg" alt=" " id="" class="img" style="width:220px">
-            <input type="image" src="dark.jpg" class="img" style="width:220px">
-        </div>
+        <h2>COMPLEXION</h2>
+
+            <input type="image" src="pale.jpg" class="img" id="p" >
+            <input type="image" src="lightest.jpg" class="img" id="l">
+            <input type="image" src="medium-light.jpg" class="img" id="ml">
+            <input type="image" src="medium.jpg" alt=" " id="m" class="img">
+            <input type="image" src="dark.jpg" class="img" id="d">
+
+            <div id="button">
+              <a href="index.html">
+                      <input type="submit" name="button" value="Choose another option" class="t">
+</a>
+                      </div>
     </p>
 
-    <form action="" id="Fform">
-        <fieldset>
-            <legend>Face</legend>
+   <section id="myForm">
+
+    <form action="" >
+        <fieldset >
+            <legend class="only">Face </legend>
             <legend>What are you looking for?</legend><br>
 
             <br>
-            <legend>Skin Type </legend><br>
+            <legend class="only">Skin Type </legend><br>
             <label>dry</label> <input type="radio" name="skin" id="dskin">
             <label>oily</label> <input type="radio" name="skin" id="oskin">
             <label>combination</label> <input type="radio" name="skin" id="cskin">
             <label>normal</label><input type="radio" name="skin" id="nskin"><br>
 
             <br>
-            <legend>Kind</legend><br>
+            <legend class="only">Kind</legend><br>
             <label>Powder</label><input type="radio" name="kind" id="pKind">
             <label>Cream</label><input type="radio" name="kind" id="cKind">
             <label>Stick</label><input type="radio" name="kind" id="sKind"><br>
 
             <br>
-            <legend>Acne Level</legend><br>
+            <legend class="only">Acne Level</legend><br>
             <p>On a scale of 1-10, 10 being the best, how bad is your skin?</p>
             <label>Horrible(1)</label> <input type="range" min="0" max=="10"> <label for="">Good(10)</label>
 
@@ -49,6 +63,10 @@
 
         </fieldset>
     </form>
+
+  </section>
+
+
 </body>
 
 </html>
