@@ -1,0 +1,59 @@
+/*File Name: testimonials.css
+
+Author: Irene J. Penuelas
+Date: 2.18.17
+*/
+
+
+/** {
+  border: 1px solid red;
+}*/
+
+
+/*Testimonial Box Styles*/
+
+div.carouselSlide {
+    display: flex;
+}
+
+div.testimonial {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+    margin-right: 20px;
+    /*filter: blur(5px) brightness(1);*/
+}
+
+
+/*Blockquote Styles*/
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
