@@ -91,7 +91,19 @@ input#post{
   width:17em;
 }
 
+<<<<<<< HEAD
 div#preview img{
   height: 25%;
   width: 25%;
+=======
+
+div#button{
+  text-align: center;
+  border: 2px solid white;
+}
+input.t{
+
+  color:grey;
+
+>>>>>>> ff69feeeaee8c5fadfb9f1eee30798032b1ed899
 }
