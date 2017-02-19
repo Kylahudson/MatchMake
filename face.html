@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Perfect face</title>
+    <link rel="stylesheet" href="forms.css">
+    <script src="jquery-3.1.1.min.js"></script>
+  <script src="forms.js"> </script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+<hgroup>
+    <header>
+
+        <img src="MMlogo1.png" alt="">
+    </header>
+  </hgroup>
+    <p>
+        <h2>COMPLEXION</h2>
+
+            <input type="image" src="pale.jpg" class="img" id="p" >
+            <input type="image" src="lightest.jpg" class="img" id="l">
+            <input type="image" src="medium-light.jpg" class="img" id="ml">
+            <input type="image" src="medium.jpg" alt=" " id="m" class="img">
+            <input type="image" src="dark.jpg" class="img" id="d">
+
+    </p>
+
+   <section id="myForm">
+
+    <form action="" >
+        <fieldset >
+            <legend class="only">Face </legend>
+            <legend>What are you looking for?</legend><br>
+
+            <br>
+            <legend class="only">Skin Type </legend><br>
+            <label>dry</label> <input type="radio" name="skin" id="dskin">
+            <label>oily</label> <input type="radio" name="skin" id="oskin">
+            <label>combination</label> <input type="radio" name="skin" id="cskin">
+            <label>normal</label><input type="radio" name="skin" id="nskin"><br>
+
+            <br>
+            <legend class="only">Kind</legend><br>
+            <label>Powder</label><input type="radio" name="kind" id="pKind">
+            <label>Cream</label><input type="radio" name="kind" id="cKind">
+            <label>Stick</label><input type="radio" name="kind" id="sKind"><br>
+
+            <br>
+            <legend class="only">Acne Level</legend><br>
+            <p>On a scale of 1-10, 10 being the best, how bad is your skin?</p>
+            <label>Horrible(1)</label> <input type="range" min="0" max=="10"> <label for="">Good(10)</label>
+
+           <input type="image" src="present.jpg" alt="submit" id="subimg">
+
+        </fieldset>
+    </form>
+
+  </section>
+
+
+</body>
+
+</html>
