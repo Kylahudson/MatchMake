@@ -1,0 +1,97 @@
+fieldset {
+
+   background-image: url("background.jpg");
+   float:left;
+   margin:10px;
+   width: 95%;
+   border: grey;
+   color:white;
+}
+label{
+  margin: 10px;
+  padding: 3px;
+
+}
+
+
+#subimg{
+  text-align: bottom right;
+  width:50px;
+  height:50px;
+
+}
+
+section {
+  display: none;
+}
+
+hgroup header img{
+
+  width:20em;
+  height: 10em;
+}
+
+hgroup header{
+  text-align: center;
+}
+
+input.img{
+  padding:10px;
+  margin-right:20px;
+  margin-bottom:15px;
+  width:15%;
+  margin-left: 10px;
+  border: 4px double #a3bfed;
+
+}
+
+
+h2{
+  border: 2px solid white;
+  color:grey;
+  letter-spacing: 1.2em;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+  font-size: 20px;
+}
+
+input#hood{
+  width:19em;
+
+}
+
+body{
+  background-image: url("brick.jpg");
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+div#eyeP{
+
+  text-align: center;
+}
+
+div#lip{
+ text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+input#pre{
+  width:20em;
+  height:8em;
+}
+
+input#post{
+  width:17em;
+}
+
+div#preview img{
+  height: 25%;
+  width: 25%;
+}

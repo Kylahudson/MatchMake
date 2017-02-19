@@ -4,70 +4,72 @@
 //
 // supporting files: none
 function MyFunction() {
-  var dry= document.getElementById("dskin").value;
-  var oil= document.getElementById("oskin").value;
-  var comb= document.getElementById("cskin").value;
-  var norm= document.getElementById("nskin").value;
-  var skin= document.getElementById("skinT").value;
+  var shade= document.getElementById("shade").value;
+  var pink= document.getElementById("pShade").value;
+  var nude= document.getElementById("nShade").value;
+  var brown= document.getElementById("bShade").value;
+  var red= document.getElementById("rShade").value;
   var kind= document.getElementById("kind").value;
-  var pow= document.getElementById("pKind").value;
-  var cream= document.getElementById("cKind").value;
-  var stick= document.getElementById("sKind").value;
+  var matte= document.getElementById("matte").value;
+  var gloss= document.getElementById("gloss").value;
+  var satin= document.getElementById("satin").value;
+
   console.log();
 
-  if ( true || skin== "oil" && kind== "pow" ) {
-      $('#preview').html("<img src='powderfoundation.png'>")
-      document.getElementById("preText").innerHTML= "Price: $28.50"
-      document.getElementById("preT").innerHTML= "Brand: Bare Minerals"
+  if ( true || shade== "pink" && kind== "matte" ) {
+      $('#preview').html("<img src='hudalippie.png'>")
+      document.getElementById("preText").innerHTML= "Price: $20.00 "
+      document.getElementById("preT").innerHTML= "Brand: Huda Beauty "
       console.log ("hello")
-  } else if (true || skin== "oil" && kind== "cream") {
+  } else if (true || shade== "pink" && kind== "gloss" ) {
       $('#preview').html("<img src='https://www.maybelline.com/~/media/mny/global/face-makeup/bbcream/dream-fresh-bb/maybelline-bb-dream-fresh-bb-skin-perfector-deep-041554282665-c.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="oil" && kind== "stick") {
+  } else if (shade== "pink" && kind== "satin" ) {
       $('#preview').html("<img src='http://some_other_image1.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="dry" && kind=="pow") {
+  } else if (shade=="nude" && kind=="matte") {
       $('#preview').html("<img src='http://some_other_image2.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin==="dry" && kind==="cream") {
+  } else if (shade=="nude" && kind=="gloss") {
       $('#preview').html("<img src='http://some_other_image3.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="dry" && kind=="stick") {
+  } else if (shade=="nude" && kind=="satin") {
       $('#preview').html("<img src='http://some_other_image4.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="comb" && kind=="pow") {
+  } else if (shade=="brown" && kind=="matte") {
       $('#preview').html("<img src='http://some_other_image5.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="comb" && kind=="cream") {
+  } else if (shade=="brown" && kind=="gloss") {
       $('#preview').html("<img src='http://some_other_image6.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="comb" && kind=="stick") {
+  } else if (shade=="brown" && kind=="satin") {
       $('#preview').html("<img src='http://some_other_image7.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="norm" && kind=="pow") {
+  } else if (shade=="red" && kind=="matte") {
       $('#preview').html("<img src='http://some_other_image8.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="norm" && kind=="cream") {
+  } else if (shade=="red" && kind=="gloss") {
       $('#preview').html("<img src='http://some_other_image9.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="norm" && kind=="stick") {
+  } else if  (shade=="red" && kind=="satin") {
       $('#preview').html("<img src='http://some_other_image10.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
   }
 
 }
-console.log("hi");
+
+
 $(function() {
 
   $('#subimg').on('click', function(event) {
