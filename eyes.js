@@ -10,11 +10,11 @@ function MyFunction() {
   var norm= document.getElementById("nskin").value;
   var occ= document.getElementById("occ").value;
   var kind= document.getElementById("kind").value;
-  var pow= document.getElementById("pKind").value;
+  var bold= document.getElementById("pKind").value;
   var cream= document.getElementById("cKind").value;
   console.log();
 
-  if ( true || occ== "oil" && kind== "pow" ) {
+  if ( true || occ== "oil" && kind== "bold" ) {
       $('#preview').html("<img src='anastasiapalette.png'>")
       document.getElementById("preText").innerHTML= "Price: $40.00"
       document.getElementById("preT").innerHTML= "Brand: Anastasia Beverly Hills Palette"
