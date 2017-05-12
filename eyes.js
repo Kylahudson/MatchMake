@@ -23,27 +23,27 @@ function MyFunction() {
       $('#preview').html("<img src='https://www.maybelline.com/~/media/mny/global/face-makeup/bbcream/dream-fresh-bb/maybelline-bb-dream-fresh-bb-skin-perfector-deep-041554282665-c.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="dry" && kind=="pow") {
+  } else if (true || skin=="dry" && kind=="pow") {
       $('#preview').html("<img src='http://some_other_image2.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin==="dry" && kind==="cream") {
+  } else if (true || skin=="dry" && kind=="cream") {
       $('#preview').html("<img src='http://some_other_image3.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="comb" && kind=="pow") {
+  } else if (true || skin=="comb" && kind=="pow") {
       $('#preview').html("<img src='http://some_other_image5.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="comb" && kind=="cream") {
+  } else if ( true || skin=="comb" && kind=="cream") {
       $('#preview').html("<img src='http://some_other_image6.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="norm" && kind=="pow") {
+  } else if (true || skin=="norm" && kind=="pow") {
       $('#preview').html("<img src='http://some_other_image8.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
-  } else if (skin=="norm" && kind=="cream") {
+  } else if (true|| skin=="norm" && kind=="cream") {
       $('#preview').html("<img src='http://some_other_image9.jpg'>")
       document.getElementById("preText").innerHTML= "Price:"
       document.getElementById("preT").innerHTML= "Brand:"
